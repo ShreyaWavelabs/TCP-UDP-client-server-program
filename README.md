@@ -1,22 +1,32 @@
-## TCP-UDP-client-server-program
+# TCP-UDP-client-server-program
 This Repository will explain the working of client-server programs in both TCP and UDP using C++ in a Linux system
 
-# Pre-requisites : 
+## Pre-requisites : 
 C++ Compiler
 Basics of Socket Programming
 
-# TCP
+## TCP
+The entire process can be broken down into following steps:
 
-TCP Server – 
+### TCP Server – 
+Create a socket for the server
+Bind the server socket to the loopback address
+Listen for incoming connections
+Accept incoming connections
+Receive data from the client
+Send a response to the client
+Close the client and server sockets.
 
-using create(), Create TCP socket.
-using bind(), Bind the socket to server address.
-using listen(), put the server socket in a passive mode, where it waits for the client to approach the server to make a connection
-using accept(), At this point, connection is established between client and server, and they are ready to transfer data.
-Go back to Step 3.
+### TCP Client – 
+Create a socket for the client
+Connect the client socket to the server
+Send data to the server
+Receive data from the server
+Close the client socket
 
-TCP Client – 
+![alt text](https://media.geeksforgeeks.org/wp-content/uploads/Socket_server-1.png)
 
-Create TCP socket.
-connect newly created client socket to server.
+
+
+
 
