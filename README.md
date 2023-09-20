@@ -50,7 +50,7 @@ Close socket descriptor and exit.
 
 
 ## References 
-https://www.geeksforgeeks.org/socket-programming-cc/ <br)
+https://www.geeksforgeeks.org/socket-programming-cc/ <br>
 https://www.geeksforgeeks.org/udp-server-client-implementation-c/ <br>
 https://www.youtube.com/watch?v=gntyAFoZp-E&t=3786s <br>
 https://www.youtube.com/watch?v=uIanSvWou1M&t=4s
